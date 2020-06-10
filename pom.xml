@@ -155,6 +155,9 @@
               <serverId>${pubStagingRepoId}</serverId>
               <nexusUrl>${pubStagingRepo}</nexusUrl>
               <autoReleaseAfterClose>${autoReleaseAfterClose}</autoReleaseAfterClose>
+              <stagingProgressTimeoutMinutes>${stagingProgressTimeoutMinutes}</stagingProgressTimeoutMinutes>
+              <keepStagingRepositoryOnCloseRuleFailure>${keepStagingRepositoryOnCloseRuleFailure}</keepStagingRepositoryOnCloseRuleFailure>
+              <keepStagingRepositoryOnFailure>${keepStagingRepositoryOnFailure}</keepStagingRepositoryOnFailure>
             </configuration>
           </plugin>
         </plugins>
